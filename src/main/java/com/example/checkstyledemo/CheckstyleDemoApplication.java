@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CheckstyleDemoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CheckstyleDemoApplication.class, args);
+		SpringApplication.run(CheckstyleDemoApplication.class,
+				args);
 	}
 
 }
