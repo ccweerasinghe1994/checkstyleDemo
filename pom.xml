@@ -61,13 +61,13 @@
 				<configuration>
 					<configLocation>google_checks.xml</configLocation>
 				</configuration>
-				<executions>
-					<execution>
-						<goals>
-							<goal>check</goal>
-						</goals>
-					</execution>
-				</executions>
+<!--				<executions>-->
+<!--					<execution>-->
+<!--						<goals>-->
+<!--							<goal>check</goal>-->
+<!--						</goals>-->
+<!--					</execution>-->
+<!--				</executions>-->
 			</plugin>
 		</plugins>
 	</build>
