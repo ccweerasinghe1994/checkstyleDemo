@@ -1,4 +1,8 @@
-# Getting Started
+# How to add Checkstyle and Google Formatting to your Java Project
+
+## Pre-requisites
+
+- Java 8 or higher and path set
 
 ## How To Add Check Style to Your Project
 
@@ -478,10 +482,15 @@ To add Google's Java formatting to IntelliJ IDEA, you can use the Google Java Fo
 4. In the search results, find "Google Java Format" and click the `Install` button.
 5. After the installation is complete, restart IntelliJ IDEA.
 ![img_3.png](img_3.png)
-6. Once IntelliJ IDEA has restarted, go to this gitHub [link](https://github.com/google/google-java-format/blob/master/README.md#intellij-android-studio-and-other-jetbrains-ides)
-7. Follow the instructions to configure the Google Java Format plugin in IntelliJ IDEA. You will need to specify the path to the google-java-format JAR file in the plugin settings.
-Now, the Google Java Format is installed and will be used to format your Java code. You can format your code by selecting `Code` -> `Reformat Code` from the main menu or by using the shortcut `Ctrl+Alt+L` (or `Cmd+Option+L` on macOS).
-![img_4.png](img_4.png)
+6. Once IntelliJ IDEA has restarted, go to this gitHub [link](https://github.com/google/google-java-format/blob/master/README.md#intellij-android-studio-and-other-jetbrains-ides) and follow the instructions.
+   ![img_5.png](img_5.png)
+   ![img_6.png](img_6.png)
+   ![img_4.png](img_4.png)
+7. Follow the instructions to configure the Google Java Format plugin in IntelliJ IDEA.
+
+   Now, the Google Java Format is installed and will be used to format your Java code. 
+   You can format your code by selecting `Code` -> `Reformat Code` from the main menu or by using the shortcut `Ctrl+Alt+L` (or `Cmd+Option+L` on macOS).
+
 
 side note
 do disable java doc comments in the google-java-format plugin, you can add the following code to the checkstyle.xml file:
